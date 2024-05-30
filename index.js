@@ -4,7 +4,7 @@ const cors = require("cors");
 
 
 const token = "7172041391:AAFyGEHQDFRC4ehAyg0h2T3MAor5Mhi5Dmc";
-const webAppUrl = "  ";
+const webAppUrl = "https://peppy-crisp-8c6265.netlify.app";
 
 const bot = new TelegramBot(token, { polling: true });
 const app = express();
